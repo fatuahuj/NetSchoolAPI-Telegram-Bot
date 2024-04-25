@@ -13,7 +13,7 @@ from cfg import add_user, add_user_log, add_user_pass, get_user_log, get_user_pa
 from gpt import today, week, kb
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token="6238047840:AAGe4dUXJehljwgnYz4yPE2msDSXg3odl78")
+bot = Bot(token="YOUR_TOKEN_BOT")
 dp = Dispatcher(storage=MemoryStorage())
 
 class user_reg(StatesGroup):
